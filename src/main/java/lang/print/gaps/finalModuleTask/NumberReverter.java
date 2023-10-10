@@ -5,6 +5,6 @@ public class NumberReverter {
         String hundred = "" + (number/100);
         String ten = "" + (number%100/10);
         String one = "" + (number%100%10);
-        System.out.println(hundred + ten + one);
+        System.out.println(one + ten + hundred);
     }
 }
